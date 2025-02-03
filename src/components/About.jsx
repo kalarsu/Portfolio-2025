@@ -30,7 +30,7 @@ const About = () => {
               experience has sharpened my ability to combine technical execution
               with creative vision. I'm dedicated to creating cutting-edge,
               approachable solutions and pushing the boundaries of front-end
-              programming.  
+              programming.  TEST
             </p>
           </div>
         </div>
