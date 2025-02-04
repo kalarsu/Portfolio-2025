@@ -1,4 +1,6 @@
 import React from "react";
+import resumePdf from "../assets/documents/Chi_Su_Resume.pdf";
+import {HiArrowNarrowRight} from "react-icons/hi";
 
 const Experience = () => {
   return (
@@ -17,14 +19,11 @@ const Experience = () => {
           <div>
             <ol>
               <li className="mb-6 sm:mb-12">
-                <div className="group relative grid pb-4 pr-4 transition-all sm:grid-cols-8 gap-4 sm:gap-8 ">
+                <div className="group relative grid pb-4 pr-4 transition-all sm:grid-cols-8 gap-4 sm:gap-8">
                   <div className="absolute -inset-x-4 -inset-y-4 z-0 mx-4 sm:group-hover:bg-slate-700/25 sm:group-hover:shadow-slate-950 sm:group-hover:drop-shadow-lg w-full h-auto rounded-md border-t-slate-300"></div>
                   <header
                     className="sm:col-span-2 text-xs text-[#8992b0] pt-1 mb-4 font-semibold uppercase tracking-wide text-left sm:text-right"
-                    aria-label="2024"
-                  >
-                    2017 - 2024
-                  </header>
+                    aria-label="2017 - 2024">2017 - 2024</header>
                   <div className="z-10 sm:col-span-6 pb-2">
                     <h3 className="font-medium leading-snug text-gray-300 tracking-wide">
                       <a
@@ -34,7 +33,7 @@ const Experience = () => {
                       >
                         <span className="absolute -inset-x-4 -inset-y-2.5 rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                         <span>
-                          Senior Frontend Engineer - First Republic Bank
+                          Senior Frontend Engineer - First Republic Bank <HiArrowNarrowRight className="inline-block -rotate-45 ml-1 transition-transform group-hover:-translate-y-1" />
                         </span>
                       </a>
                     </h3>
@@ -52,10 +51,10 @@ const Experience = () => {
               </li>
 
               <li className="mb-6 sm:mb-12">
-                <div className="group relative grid pb-4 pr-4 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4">
+                <div className="group relative grid pb-4 pr-4 transition-all sm:grid-cols-8 gap-4 sm:gap-8">
                   <div className="absolute -inset-x-4 -inset-y-4 z-0 mx-4 sm:group-hover:bg-slate-700/25 sm:group-hover:shadow-slate-950 sm:group-hover:drop-shadow-lg w-full h-auto rounded-md border-t-slate-300"></div>
                   <header
-                    className="text-xs text-[#8992b0] pt-1 mb-4 font-semibold uppercase tracking-wide text-left sm:text-right sm:col-span-2 "
+                    className="sm:col-span-2 text-xs text-[#8992b0] pt-1 mb-4 font-semibold uppercase tracking-wide text-left sm:text-right"
                     aria-label="2024"
                   >
                     2015 - 2017
@@ -68,7 +67,7 @@ const Experience = () => {
                         className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-orange-500 focus-visible:text-orange-500  group/link text-base"
                       >
                         <span className="absolute -inset-x-4 -inset-y-2.5 rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                        <span>Frontend Engineer - Kabam Inc.</span>
+                        <span>Frontend Engineer - Kabam Inc. <HiArrowNarrowRight className="inline-block -rotate-45 ml-1 transition-transform group-hover:-translate-y-1" /></span>
                       </a>
                     </h3>
                     <p className="mt-2 text-sm leading-normal text-[#8992b0] tracking-wide">
@@ -90,10 +89,10 @@ const Experience = () => {
               </li>
 
               <li className="mb-6 sm:mb-12">
-                <div className="group relative grid pb-4 pr-4 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4">
+                <div className="group relative grid pb-4 pr-4 transition-all sm:grid-cols-8 gap-4 sm:gap-8">
                   <div className="absolute -inset-x-4 -inset-y-4 z-0 mx-4 sm:group-hover:bg-slate-700/25 sm:group-hover:shadow-slate-950 sm:group-hover:drop-shadow-lg w-full h-auto rounded-md border-t-slate-300"></div>
                   <header
-                    className="text-xs text-[#8992b0] pt-1 mb-4 font-semibold uppercase tracking-wide text-left sm:text-right sm:col-span-2 "
+                    className="sm:col-span-2 text-xs text-[#8992b0] pt-1 mb-4 font-semibold uppercase tracking-wide text-left sm:text-right"
                     aria-label="2024"
                   >
                     2012 - 2014
@@ -106,7 +105,7 @@ const Experience = () => {
                         className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-orange-500 focus-visible:text-orange-500  group/link text-base"
                       >
                         <span className="absolute -inset-x-4 -inset-y-2.5 rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
-                        <span>Frontend Engineer - Western Union</span>
+                        <span>Frontend Engineer - Western Union <HiArrowNarrowRight className="inline-block -rotate-45 ml-1 transition-transform group-hover:-translate-y-1" /></span>
                       </a>
                     </h3>
                     <p className="mt-2 text-sm leading-normal text-[#8992b0] tracking-wide">
@@ -128,10 +127,19 @@ const Experience = () => {
               </li>
             </ol>
             <div className="mt-4 mb-40 sm:mt-6 sm:mb-4 pl-4 sm:pl-0 grid sm:grid-cols-8 gap-4 sm:gap-8">
-                <div className="sm:col-span-2"></div>
-                <div className="col-span-8 sm:col-span-6 font-medium font-semibold text-[#8992b0]">
-                    <a className="hover:text-orange-500" href="/Chi_Su_Resume.pdf">View Full Resume</a>
-                </div>
+              <div className="sm:col-span-2"></div>
+              <div className="col-span-8 sm:col-span-6 font-medium font-semibold text-[#8992b0]">
+                <a
+                  className="hover:text-orange-500 group flex items-center"
+                  href={resumePdf}
+                  target="_blank"
+                >
+                  <span className="inline">View Full Resume <HiArrowNarrowRight aria-label="External Link Icon" className="inline-block -rotate-45 ml-1 transition-transform group-hover:-translate-y-1" /></span>
+                  {/* <span className="inline -rotate-45 pt-0.5 group-hover:rotate-90 duration-300">
+                    
+                  </span> */}
+                </a>
+              </div>
             </div>
           </div>
         </div>

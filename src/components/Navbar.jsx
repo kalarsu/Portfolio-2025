@@ -4,6 +4,8 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo1.png";
 import { Link } from "react-scroll";
+import resumePdf from "../assets/documents/Chi_Su_Resume.pdf"
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,7 +17,7 @@ const Navbar = () => {
         <img src={Logo} alt="Logo" style={{ width: "50px" }} />
       </div>
       {/* menu */}
-      <ul className="hidden md:flex">
+      <ul aria-label="Main Navigation" className="hidden md:flex">
         <li>
           <Link to="home" smooth={true} duration={500}>
             Home
@@ -53,7 +55,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <ul
+      <ul aria-label="Mobile Navigation"
         className={
           !nav
             ? "hidden"
@@ -94,7 +96,7 @@ const Navbar = () => {
 
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-        <ul>
+        <ul aria-label="Social Navigation">
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
@@ -129,7 +131,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href={resumePdf} target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
