@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed z-50 w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300" aria-label="Navigation bar">
       <div>
         <img src={Logo} alt="Logo" style={{ width: "50px" }} />
       </div>
@@ -27,15 +27,20 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link to="experience" smooth={true} duration={500}>
+            Experience
+          </Link>
+        </li>
+        <li>
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="work" smooth={true} duration={500}>
             Work
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to="contact" smooth={true} duration={500}>
             Contact
@@ -66,15 +71,20 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="py-6 text-4xl">
+          <Link onClick={handleClick} to="experience" smooth={true} duration={500}>
+            Experience
+          </Link>
+        </li>
+        <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        {/* <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
             Work
           </Link>
-        </li>
+        </li> */}
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
