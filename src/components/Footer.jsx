@@ -30,8 +30,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer noopener"
               aria-label="Tailwind CSS (opens in a new tab)"
-            >
-              Tailwind CSS 
+            > Tailwind CSS 
             </a>, and deployed on <a
               href="https://vercel.com/"
               class="font-medium text-slate-400 hover:text-orange-700 focus-visible:text-orange-700"

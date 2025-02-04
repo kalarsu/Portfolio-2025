@@ -17,7 +17,7 @@ const Experience = () => {
             </p>
           </div>
           <div>
-            <ol>
+            <ol className="group/list">
               <li className="mb-6 sm:mb-12">
                 <div className="group relative grid pb-4 pr-4 transition-all sm:grid-cols-8 gap-4 sm:gap-8">
                   <div className="absolute -inset-x-4 -inset-y-4 z-0 mx-4 sm:group-hover:bg-slate-700/25 sm:group-hover:shadow-slate-950 sm:group-hover:drop-shadow-lg w-full h-auto rounded-md border-t-slate-300"></div>
@@ -46,6 +46,38 @@ const Experience = () => {
                       practices in testing, code linting, and version control to
                       enhance code quality and maintainability.
                     </p>
+                    <ul className="mt-2 flex flex-wrap">
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                                Javascript
+                            </div>
+                        </li>
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                                JQuery
+                            </div>
+                        </li>
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                                React
+                            </div>
+                        </li>
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                                Tailwind CSS
+                            </div>
+                        </li>
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                                Foundation
+                            </div>
+                        </li>
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                                Jest
+                            </div>
+                        </li>
+                    </ul>
                   </div>
                 </div>
               </li>
@@ -84,6 +116,33 @@ const Experience = () => {
                       stakeholders to translate user needs into detailed project
                       designs and implementation plans.
                     </p>
+                    <ul className="mt-2 flex flex-wrap">
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                                Javascript
+                            </div>
+                        </li>
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                                JQuery
+                            </div>
+                        </li>
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                                PHP
+                            </div>
+                        </li>
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                            Bootstrap
+                            </div>
+                        </li>
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                            WordPress
+                            </div>
+                        </li>
+                    </ul>
                   </div>
                 </div>
               </li>
@@ -122,6 +181,33 @@ const Experience = () => {
                       stakeholders to translate user needs into detailed project
                       designs and implementation plans.
                     </p>
+                    <ul className="mt-2 flex flex-wrap">
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                                Javascript
+                            </div>
+                        </li>
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                                JQuery
+                            </div>
+                        </li>
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                            AngularJS
+                            </div>
+                        </li>
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                            Bootstrap
+                            </div>
+                        </li>
+                        <li className="mr-1">
+                            <div className="flex text-center text-xs text-orange-600 tracking-wide py-1 px-3 mb-2 rounded-full bg-teal-300/10">
+                            Adobe DTM
+                            </div>
+                        </li>
+                    </ul>
                   </div>
                 </div>
               </li>
